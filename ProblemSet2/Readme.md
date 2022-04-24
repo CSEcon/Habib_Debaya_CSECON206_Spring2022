@@ -6,8 +6,6 @@
 
 > *Disclaimer:* Submissions to Problem Set 2 for COMPSCI/ECON 206 Computational Microeconomics, 2022 Spring Term (Seven Week - Second) instructed by Prof. Luyao Zhang at Duke Kunshan University.
 
-# Habib Debaya - Cooperative AI and the Future of Mechanism Design
-
 #### RQ1: What is cooperative AI? What do you see as the potential that computer science and economics can jointly contribute to advance cooperative AI?
 
 ![Mitsubishi Electric Develops Cooperative AI for Human-Machine Work](https://be.mitsubishielectric.com/sites/be_ssl/en/news/releases/global/2020/0603-a/images/img_200603-a.jpg "Cooperative AI")
