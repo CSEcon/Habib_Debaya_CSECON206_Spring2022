@@ -59,6 +59,8 @@ I believe I can help in two ways.
 - Second, I believe that I can find ways to advocate for the Mechanism Design theory’s merits to people around me to get more interest in the field. I believe that the more that society is aware of the need to design systems that produce positive outcomes (as opposed to just going at it and hoping for the best), the more likely we are to see progress occur.
 
 
+#### Glossary
+
 | Term      | Definition | Source |
 | ----------- | ----------- | ----------- |
 | Mechanism Design   | Mechanism design theory is an economic theory that seeks to study the mechanisms by which a particular outcome or result can be achieved.| Chen 2022        |
