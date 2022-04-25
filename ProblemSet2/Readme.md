@@ -11,7 +11,7 @@
 ![Mitsubishi Electric Develops Cooperative AI for Human-Machine Work](https://be.mitsubishielectric.com/sites/be_ssl/en/news/releases/global/2020/0603-a/images/img_200603-a.jpg "Cooperative AI")
 
 
-According to Cooperative AI's website, Cooperative AI aims to reconceive AI as **deeply social** (Dafoe 2021). More practically, cooperative AI wants to find ways where AI is not engaged in a zero-sum conflict game but rather a game where common and conflicting interests are present and AI has to find ways to work with the opposite party, whether it is another AI or a human. I think the contribution of Computer Science will center on the AI algorithms. Better deep learning models will allow AI to process more information at higher speeds so that it can make more accurate information faster. As for Economics, I believe that the game theory models will be very useful in guiding AI towards the best cooperative decisions to make during games.
+According to Cooperative AI's website, Cooperative AI aims to reconceive AI as **deeply social** [(Dafoe 2021)](https://www.nature.com/articles/d41586-021-01170-0). More practically, cooperative AI wants to find ways where AI is not engaged in a zero-sum conflict game but rather a game where common and conflicting interests are present and AI has to find ways to work with the opposite party, whether it is another AI or a human. I think the contribution of Computer Science will center on the AI algorithms. Better deep learning models will allow AI to process more information at higher speeds so that it can make more accurate information faster. As for Economics, I believe that the game theory models will be very useful in guiding AI towards the best cooperative decisions to make during games.
 
 
 
@@ -19,7 +19,7 @@ According to Cooperative AI's website, Cooperative AI aims to reconceive AI as *
 
 ![Mechanism Design Infographic](https://www.researchgate.net/profile/Jose-Moura-9/publication/290446804/figure/fig1/AS:318211481456640@1452878937553/Game-Theory-GT-vs-Mechanism-Design-MD.png "Mechanism Design")
 
-Mechanism design, at its heart, wants to allow agents who are self-interested and with incomplete information to make decisions that create utilitarian good (Chen 2022). I believe that Mechanism Design (MD) is a very virtuous field of study as it finds ways to channel selfish human behavior to achieve positive outcomes. MD regulates specific mechanisms related in the game as to engineer specific outcomes. In this sense, MD is often referred to as *reverse game theory*.
+Mechanism design, at its heart, wants to allow agents who are self-interested and with incomplete information to make decisions that create utilitarian good [(Chen 2022)](https://www.investopedia.com/terms/m/mechanism-design-theory.asp). I believe that Mechanism Design (MD) is a very virtuous field of study as it finds ways to channel selfish human behavior to achieve positive outcomes. MD regulates specific mechanisms related in the game as to engineer specific outcomes. In this sense, MD is often referred to as *reverse game theory*.
 
 
 
@@ -34,7 +34,7 @@ Impossibility theorems, namely Arrow's impossibility theorem and the Gibbard–S
 
 #### RQ4: What new challenging are we facing in a new era with more and more human and AI interactions?
 
-Dafoe et al. (2020) defines the main challenges that we face:
+Dafoe et al. [(2020)](https://arxiv.org/abs/2012.08630) defines the main challenges that we face:
 
 1.	Improvement in cooperative abilities can be an exclusionary force and/or encourage cooperative agents to work together to the detriment of other agents.
 2.	The better agents get at cooperating, the more likely they are to possess a skillset that allows them to better deceive.
