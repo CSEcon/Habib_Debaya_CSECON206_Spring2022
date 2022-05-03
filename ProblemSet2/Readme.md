@@ -9,7 +9,7 @@
 #### RQ1: What is cooperative AI? What do you see as the potential that computer science and economics can jointly contribute to advance cooperative AI?
 
 ![Mitsubishi Electric Develops Cooperative AI for Human-Machine Work](https://be.mitsubishielectric.com/sites/be_ssl/en/news/releases/global/2020/0603-a/images/img_200603-a.jpg "Cooperative AI")
-
+*[(Mitsubishi 2020)](https://be.mitsubishielectric.com/en/news/releases/global/2020/0603-a/index.html)*
 
 According to Cooperative AI's website, Cooperative AI aims to reconceive AI as **deeply social** [(Dafoe 2021)](https://www.nature.com/articles/d41586-021-01170-0). More practically, cooperative AI wants to find ways where AI is not engaged in a zero-sum conflict game but rather a game where common and conflicting interests are present and AI has to find ways to work with the opposite party, whether it is another AI or a human. I think the contribution of Computer Science will center on the AI algorithms. Better deep learning models will allow AI to process more information at higher speeds so that it can make more accurate information faster. As for Economics, I believe that the game theory models will be very useful in guiding AI towards the best cooperative decisions to make during games.
 
@@ -17,15 +17,12 @@ According to Cooperative AI's website, Cooperative AI aims to reconceive AI as *
 
 #### RQ2: Besides the desirable outcomes of cooperation, what other desirable outcomes the mechanism design theory aims at achieving?
 
-![Mechanism Design Infographic](https://www.researchgate.net/profile/Jose-Moura-9/publication/290446804/figure/fig1/AS:318211481456640@1452878937553/Game-Theory-GT-vs-Mechanism-Design-MD.png "Mechanism Design")
 
 Mechanism design, at its heart, wants to allow agents who are self-interested and with incomplete information to make decisions that create utilitarian good [(Chen 2022)](https://www.investopedia.com/terms/m/mechanism-design-theory.asp). I believe that Mechanism Design (MD) is a very virtuous field of study as it finds ways to channel selfish human behavior to achieve positive outcomes. MD regulates specific mechanisms related in the game as to engineer specific outcomes. In this sense, MD is often referred to as *reverse game theory*.
 
 
 
 #### RQ3: What are the limitations of the current mechanism design theory in achieving desirable outcomes? What new challenging are we facing in a new era with more and more human and AI interactions?
-
-![Arrow's impossibility theorem Infographic](https://pbs.twimg.com/media/FLULNqoXoAAv5i8?format=jpg&name=large "Arrow's impossibility theorem")
 
 Impossibility theorems, namely Arrow's impossibility theorem and the Gibbard–Satterthwaite theorem, represent limitations to current mechanism design theory. Both theorems revolve around the fact that voting systems may not produce the desired result of voters even if every voter votes sincerely.[^1] [^2] These impossibility theorems present an issue to Mechanism Design. Since MD attempts to devise systems that produce positive results in spite of self-interest and incomplete information, impossibility theories imply that Mechanism Design cannot always achieve its stated goals. With more human and AI interactions, we might find ourselves in new games that are certain to produce results that are not ideal. As such, we should not only advance the development of cooperative AI but also make sure that the games we play have a possibility of achievieng desirable outcomes.
 
@@ -48,7 +45,7 @@ Nonetheless, Dafoe et al. remain optimistic on our ability to find solutions to 
 
 > As the field of AI takes increasingly confident strides in its ambition to build intelligent machine agents, it is critical to attend to the kinds of intelligence humanity most needs. Necessarily among these is cooperative intelligence.
 
-#### RQ4: Based on your interest and your advantage in skills, how do you plan to contribute to overcoming the limitations of the current mechanism design theory in achieving the desired outcomes and making this world a better place? 
+#### RQ5: Based on your interest and your advantage in skills, how do you plan to contribute to overcoming the limitations of the current mechanism design theory in achieving the desired outcomes and making this world a better place? 
 
 I believe I can help in two ways.
 
@@ -56,6 +53,9 @@ I believe I can help in two ways.
 
 - Second, I believe that I can find ways to advocate for the Mechanism Design theory’s merits to people around me to get more interest in the field. I believe that the more that society is aware of the need to design systems that produce positive outcomes (as opposed to just going at it and hoping for the best), the more likely we are to see progress occur.
 
+Finally, it is worthwhile to touch upon the prospects of advancing game theory and mechanism design as the two fields seem to be stuck as of late.
+
+I believe the best way to advance both fields is to look at quantum computing. It has been proven that quantum algorithms perform much better in classical strategies such as coin-flip games and the prisoner's dilemma [(Allen 2020)](https://scholar.colorado.edu/catalog.html?f%5Bacademic_affiliation_sim%5D%5B%5D=Mathematics&f%5Bcreator_sim%5D%5B%5D=Allen%2C+Khaled+C.&f%5Bmember_of_collection_ids_ssim%5D%5B%5D=mw22v594h&per_page=50&search_field=degree_grantors&sort=system_create_dtsi+desc&view=list). Therefore, quantum computing, through divising better algorithms, presents an opportunity to advance the field in new ways. As for mechanism design, Quantum mechanism design is a natural progression of quantum game theory. Since mechanism design is essentially reverse game theory, quantum theroy must be in a position to provide advances to mechanism design. An example is that an agent that completes a condition can tackle "bad" social choice rules evading the restrictions of traditional mechanism design theory.
 
 #### Glossary
 
@@ -70,6 +70,10 @@ I believe I can help in two ways.
 
 ### References
 
+Allen, Khaled. "An Exploration of Quantum Game Theory and its Applications." 2020. [University of Colorado](https://scholar.colorado.edu/catalog.html?f%5Bacademic_affiliation_sim%5D%5B%5D=Mathematics&f%5Bcreator_sim%5D%5B%5D=Allen%2C+Khaled+C.&f%5Bmember_of_collection_ids_ssim%5D%5B%5D=mw22v594h&per_page=50&search_field=degree_grantors&sort=system_create_dtsi+desc&view=list)
+
+Corporation, Mitsubishi Electric. 2022. “Mitsubishi Electric Develops Cooperative AI for Human-Machine Work: 2020: Global News.” MITSUBISHI ELECTRIC BELGIUM. Accessed May 3. https://be.mitsubishielectric.com/en/news/releases/global/2020/0603-a/index.html. 
+
 Dafoe, Allan, Edward Hughes, Yoram Bachrach, Tantum Collins, Kevin R. McKee, Joel Z. Leibo, Kate Larson, and Thore Graepel. 2020. "Open problems in cooperative ai." arXiv preprint arXiv:2012.08630. https://arxiv.org/abs/2012.08630
 
 Dafoe, Allan, Yoram Bachrach, Gillian Hadfield, Eric Horvitz, Kate Larson, and Thore Graepel. 2021. “Cooperative AI: Machines Must Learn to Find Common Ground.” Nature News. Nature Publishing Group. May 4. https://www.nature.com/articles/d41586-021-01170-0. 
@@ -77,5 +81,6 @@ Dafoe, Allan, Yoram Bachrach, Gillian Hadfield, Eric Horvitz, Kate Larson, and T
 Chen, James. 2022. “Mechanism Design Theory.” Investopedia. Investopedia. February 8. https://www.investopedia.com/terms/m/mechanism-design-theory.asp. 
 
 Liberto, Daniel. 2021. “What Is Arrow's Impossibility Theorem?” Investopedia. Investopedia. July 21. https://www.investopedia.com/terms/a/arrows-impossibility-theorem.asp. 
+
 
 Svensson, Lars-Gunnar, and Alexander Reffgen. 2014. “The Proof of the Gibbard–Satterthwaite Theorem Revisited.” Journal of Mathematical Economics 55: 11–14. doi:10.1016/j.jmateco.2014.09.007. https://www.sciencedirect.com/science/article/abs/pii/S0304406814001177
