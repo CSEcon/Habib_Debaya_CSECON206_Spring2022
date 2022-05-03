@@ -21,9 +21,14 @@ in BibTex
 
 This paper is based on the Blockchain technology and the different systems of voting. The real world issue in this paper is voting, and how to make it secure and transparent through blockchain. Applications scenarios are any vote in any institution.
 
+-- provide citations to explain background info (quotation)
+
 ### 2. Research Questions
 
 The paper answers the question of how to use blockchain to enhance e-voting. This is an important question because e-voting can allow us to have all the positive of pen and paper voting (security, paper trace) with that of e-voting (speed, easier to handle data). The questions are not answered by current literature because the current blockchain e-voting implementations have limitations (need more clarity on this. I don't actually know why the author presented a new way of e-voting, because he does not explicitly mention how his method is improving things)
+
+-- cite sources for definitions
+
 ### 3. Methods
 
 The research methodology is model. The paper shows how the blockchain system works for e-voting. The methodology is as such because blockchain is a technology and presenting it through a model is the best way to explain it.
@@ -37,6 +42,9 @@ The voting process provided in this paper is divided into three parts:
 ### 4. Intellectual Merits
 
 The Auditable Blockchain Voting System (ABVS) presented in the paper "fulfills all the requirements of the electronic voting systems and delivers an e-voting solution which provides voters with full audit and verification capabilities"
+
+-- u must cite literature to tell where the paper belongs. cite classical papers to dtermine discipline. talk about uniqueness. talk about how it motivates
+
 
 ### 5. Practical Impacts
 
