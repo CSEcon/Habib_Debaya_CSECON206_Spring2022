@@ -7,7 +7,8 @@
 
 by [Habib Debaya]
 
-![Profile Photo](./photo.jpg | width=100)
+
+<img src="./photo.jpg" alt="Profile Photo" width="200"/>
 
 
 **Profile Photo**
