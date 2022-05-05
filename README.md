@@ -30,7 +30,7 @@ I would like to thank Professor Luyao Zhang for her invaluable guidance and supp
 
 | Content| Date|Description|
 | ----------- | ----------- |-----------|
-| **[Code Assignment 1](https://github.com/CSEcon/Natalie_Cao_CSEcon206_Spring2022/blob/main/CodeAssignment1/Code%20Assignment%201_%20The%20computational%20pipline.ipynb)** |  Week 2 |Computational Pipline|
-| **[Problem Set 1](https://github.com/CSEcon/Natalie_Cao_CSEcon206_Spring2022/blob/main/ProblemSet1/CSECON206_ProblemSet1_Qitong.pdf)** | Week 3 |A General Introduction to Game Theory: A Dichotomy Approach|
-| **[Code Assignment 2](https://github.com/CSEcon/Natalie_Cao_CSEcon206_Spring2022/blob/main/CodeAssignment2/Code%20Assignment%202_%20Algorithmic%20Game%20Theory.ipynb)** | Week 4 | Algorithmic Game Theory|
-| **[Problem Set 2](https://github.com/CSEcon/Natalie_Cao_CSEcon206_Spring2022/blob/main/ProblemSet2/qc39.md)** | Week 5 | Cooperative AI and the Future of Mechanism Design|
+| **[Code Assignment 1](https://github.com/CSEcon/Habib_Debaya_CSECON206_Spring2022/tree/main/CodeAssignment1)** |  Week 2 |Computational Pipline|
+| **[Problem Set 1](https://github.com/CSEcon/Habib_Debaya_CSECON206_Spring2022/tree/main/ProblemSet1)** | Week 3 |A General Introduction to Game Theory: A Dichotomy Approach|
+| **[Code Assignment 2](https://github.com/CSEcon/Habib_Debaya_CSECON206_Spring2022/tree/main/CodeAssignment2)** | Week 4 | Algorithmic Game Theory|
+| **[Problem Set 2](https://github.com/CSEcon/Habib_Debaya_CSECON206_Spring2022/tree/main/ProblemSet2)** | Week 5 | Cooperative AI and the Future of Mechanism Design|
