@@ -17,10 +17,7 @@ Habib is a freshman at Duke Kunshan University. He is highly interested in inter
 
 In his free time, Habib enjoys exercising and reading.
 
-Follow Habib @
-
--**[Linkedin](https://www.linkedin.com/in/habibdebaya/)**
-
+Follow Habib @ **[Linkedin](https://www.linkedin.com/in/habibdebaya/)**
 
 
 ## Acknowledgments
