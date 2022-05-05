@@ -1,0 +1,252 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.20 of 2017/10/04
+%
+\documentclass[runningheads]{llncs}
+
+%
+\usepackage{graphicx}
+\usepackage{array}
+
+
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+\usepackage{hyperref}
+\hypersetup{hidelinks,
+backref=true,
+pagebackref=true,
+hyperindex=true,
+breaklinks=true,
+colorlinks=true,%linkcolor=black,
+urlcolor=blue,
+bookmarks=true,
+bookmarksopen=false,
+pdftitle={Title},
+%pdfauthor={Author}
+}
+% If you use the hyperref package, please uncomment the following line
+% to display URLs in blue roman font according to Springer's eBook style:
+\renewcommand\UrlFont{\color{blue}\rmfamily}
+\renewcommand\UrlFont{\color{blue}\rmfamily\itshape}
+
+% url.sty was written by Donald Arseneau. It provides better support for
+% handling and breaking URLs. url.sty is already installed on most LaTeX
+% systems. The latest version and documentation can be obtained at:
+% http://www.ctan.org/pkg/url
+% Basically, \url{my_url_here}.
+
+%color
+\usepackage{xcolor}
+
+%comments
+\newif\ifshowcomment
+\showcommenttrue
+% \showcommentfalse % uncomment this to to disable comments
+\ifshowcomment
+\newcommand{\luyao}[1]{\textcolor{blue}{[luyao] #1}}
+\else
+\newcommand{\luyao}[1]{}
+\fi
+
+%bibliography
+\usepackage[numbers]{natbib}
+%reference: https://tex.stackexchange.com/questions/202963/how-to-cite-author-in-ieee-format
+%The natbib package provides three versions of the standard BibTeX bibliography styles compatible with author-year citations (\citet, \citeauthor, \citeyear):
+%1.plainnat
+%2.bbrvnat
+%3.unsrtnat
+
+\begin{document}
+%
+\title{A General Introduction to Game Theory: A Dichotomy Approach\thanks{Supported by Duke Kunshan University}}
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+\author{Habib Debaya\inst{1}}
+%
+\authorrunning{CS/Econ 206 Computational Microeconomics, Duke Kunshan University}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+\institute{Duke Kunshan University, Kunshan, Jiangsu 215316, China \\
+\email{md433@duke.edu}\\
+\href{https://www.linkedin.com/in/habibdebaya/}{\textit{\underline{LinkedIn}}}
+}
+%
+
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+Submissions to Problem Set 1 for COMPSCI/ECON 206 Computational Microeconomics, 2022 Spring Term (Seven Week - Second) instructed by Prof. Luyao Zhang at Duke Kunshan University. 
+
+
+\keywords{computational economics  \and game theory \and innovative education.}
+\end{abstract}
+%
+%
+%
+\section{Part I: Self-Introduction}
+\begin{figure}
+\centering
+\includegraphics[width=4.7cm, height=5cm]{ph.jpg}
+\caption{A personal photo of me.} \label{photo:personal}
+\end{figure}
+
+\begin{par}
+\textcolor{orange}{Habib Debaya}, a freshman at Duke Kunshan University (DKU) and full admission scholarship recipient. He has a solid foundation in Mathematics and Computer Science.
+His area of interest is, generally, the interdisciplinary applications of computational models. He is also excited about the prospects of blockchain as an emerging technology.
+In his free time, \textcolor{orange}{Habib} enjoys reading, exercising, and following current events.
+\textcolor{orange}{Habib} hopes to use his expertise to create products that make people’s lives better in a meaningful way. He intends to return to his country after finishing his studies to contribute to building a good foundation for its future growth.
+\end{par}
+
+\section{Part II: Reflections on Game Theory (5 points)}
+
+\begin{par}
+Game theory focuses on the interaction between different agents in a myriad of fields: economics, politics, biology, psychology, etc… \cite{mas}. Game theory focuses on how independent, self-interested agents would behave to reach a pre-defined goal \cite{mas,cgt}. \citeauthor{cgt} argue that the decision-makers ought to be rational and reason strategically. In \citeyear{cgt}, A Course in Game Theory outlined the use of Nash Equilibrium as a tool to study oligopolistic and political
+competition. In the same vein, \citet{mas} examine non-cooperative game theory and juxtapose it to coalitional game theory.
+\citeauthor{mas} focuses on the normal form, which amounts to a representation of every player’s utility for every state of the world. An example of normal form games is the infamous Prisoner's Dilemma. As for \citet{cgt}, a three-part examination is presented: Nash Equilibrium, the deductive solution concepts of rationalizability and iterated elimination
+of dominated actions, and a model of knowledge that allows
+formal examinations the assumptions that underlie the aforementioned solutions.
+\end{par}
+
+
+\section{Part III: Nash Equilibrium: Definition, Theorem, and Proof (3 points)}
+
+
+\subsection{Nash Equilibrium: The definitions}
+\subsubsection{3.1.1. The Economist Perspectives}
+\paragraph{Refer to Textbook:} 
+\href{https://www.sciencedirect.com/science/article/pii/S0899825699907236}{\textit{\underline{Osborne, Martin J. and Ariel Rubinstein.}}}~
+\citeyear{osborne1994course}. A Course in Game Theory (Chapter 2, Page 14, DEFINITION 14.1)
+
+\begin{definition}[Nash Equilibrium]
+A \textbf{Nash Equilibrium} of a strategic game $\langle\mathnormal{N}, \mathnormal{A_{i}},(\succeq_{i})\rangle$ is a profile $a^{*}\in\mathnormal{A}$ of actions with the property that for every player $i\in \mathnormal{N}$, we have:
+$$(a^{*}_{-i},a^{*}_{i}) \succeq_{i}(a^{*}_{-i},a_{i}), \forall \in \mathnormal{A_{i}}.$$
+And, a strategic game $\langle\mathnormal{N}, \mathnormal{A_{i}},(\succeq_{i})\rangle$  consist of:
+\begin{itemize}
+    \item a finite set $\mathnormal{N}$ as the set of players
+    \item for each player $i\in\mathnormal{N}$, a nonempty set $\mathnormal{A_{i}}$ as the set of actions available to player $i$
+    \item for each player $i\in\mathnormal{N}$, a preference relation $\succeq_{i}$ on $\mathnormal{A}=\times_{j\in \mathnormal{N}}\mathnormal{A}_{j}$
+\end{itemize}
+\end{definition}
+
+\subsubsection{3.1.2. The Computer Scientist Perspectives}
+
+\paragraph{Refer to Textbook:} 
+\href{http://www.masfoundations.org/mas.pdf}{\textit{\underline{Shoham, Yoav, and Kevin Leyton-Brown.}}} \citeyear{shoham2008multiagent}. Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations. Cambridge: Cambridge University Press. (Chapter 3, Page 62, Definition 3.3.4)
+\begin{definition}[Nash Equilibrium] A strategy profile $s^{*}=(s_{1}^{*},...,s_{n}^{*})\in S$ is a \textbf{Nash Equilibrium} of a normal for game $(\mathnormal{N}, \mathnormal{A}, \mu)$ if, $\forall$ agents $i$, $s_{i}^{*}$ is a best response to $s_{-i}^{*}$:
+
+$$\mu_{i}(s_{i}^{*},s_{-i}^{*}) \geq \mu_{i}(s_{i},s_{-i}^{*}), \forall -i.$$
+And a normal game $(\mathnormal{N}, \mathnormal{A}, \mu)$ consist of:
+\begin{itemize}
+    \item $\mathnormal{N}$, a finite set of $n$ players, indexed by $i$
+    \item $\mathnormal{A} =\mathnormal{A_{1}}\times ...\mathnormal{A_{n}}$, where $\mathnormal{A_{i}}$ is a finite set of actions available to player $i$. Each vector $a=(a_{1},...,a_{n})\in A$ is called an action profile; the set of mixed strategy for player $i$ is $S_{i}=\prod(A_{i})$, where for any set $X$, $\prod(X)$ denotes the set of all probability distributions over $X$
+    \item $\mu = (\mu_{1},...,\mu_{n})$ where $\mu_{i}: {A} \mapsto {R} $
+\end{itemize}
+
+\end{definition}
+
+\subsection{Nash Equilibrium: The thereom}
+\subsubsection{3.2.1. The Economist Perspectives}
+\paragraph{Refer to Textbook:} 
+\href{https://www.sciencedirect.com/science/article/pii/S0899825699907236}{\textit{\underline{Osborne, Martin J. and Ariel Rubinstein.}}}~
+\citeyear{osborne1994course}. A Course in Game Theory (Chapter 3, Page: 33, Proposition 33.1)
+\begin{proposition}
+Every finite strategic game has a mixed strategy Nash Equilibrium.
+\end{proposition}
+\begin{proof}
+Let $G=\langle\mathnormal{N}, \mathnormal{A_{i}},(\succeq_{i})\rangle$ be a strategic game, and for each player $i$ let $m_{i}$ be the number of members of the set $A_{i}$. Then we can identify the set $\delta(A_{i})$ of player \textit{i}'s mixed strategy with the set of vectors $(p_{1},p_{m_{i}})$ for which $p_{k} \geq 0 $ for all $k$ and $\sum_{k=1}^{m_i}p_{k}=1$ ($p_{k}$ being the probability with which player $i$ uses his $k$th pure strategy). This set is nonempty, convex, and compact. Since expected payoff is linear in the probabilities, each player's payoff function in the mixed extension of $G$ is both quasi-concave in his own strategy and continuous. Thus the mixed extension of $G$ satisfies all the requirements of Proposition 20.3.
+ \end{proof}
+
+
+\subsubsection{3.2.2. The Computer Scientist Perspectives}
+
+\paragraph{Refer to Textbook:} 
+\href{http://www.masfoundations.org/mas.pdf}{\textit{\underline{Shoham, Yoav, and Kevin Leyton-Brown.}}} \citeyear{shoham2008multiagent}. Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations. Cambridge: Cambridge University Press. (Chapter 3, Page 72, Theorem 3.3.22 (Nash 1951))
+\begin{theorem}
+Every game with a finite number of players and
+action profiles has at least one Nash equilibrium.
+\end{theorem}
+\begin{proof}
+Given a strategy profile $s \in S$, for all $i \in N$ and $a_i \in A_i$ we define $$ \varphi_{i,a_i} = max{(0,u_i(a_i, s_{-i}) - u_i(s))}. $$
+We then define the function $f : S \mapsto S$ by $f(s) = s^\prime$, where
+ $$s_i^\prime(a_i)=\frac{s_i(a_i)+\varphi_{i,a_i}(s)}{\sum_{b_i\in A_i}s_i(b_i)+\varphi_{i,b_i}(s)} $$
+$$ = \frac{s_i(a_i)+\varphi_{i,a_i}(s)}{1+\sum_{b_i\in A_i}+\varphi_{i,b_i}(s)}$$
+
+Intuitively, this function maps a strategy profile $s$ to a new strategy profile $s^\prime$
+in which each agent’s actions that are better responses to $s$ receive increased probability mass.
+\par
+The function $f$ is continuous since each $\varphi_{i,a_i}$ is continuous. Since $S$ is convex and compact and $f : S \mapsto S$, $f$ must have at least
+one fixed point. We must now show that the fixed points of $f$ are the Nash
+equilibria.
+\par
+First, if $s$ is a Nash equilibrium then all $\varphi$’s are $0$, making $s$ a fixed point of $f$.Conversely, consider an arbitrary fixed point of $f$, $s$. By the linearity of expectation
+there must exist at least one action in the support of $s$, say $a_i^\prime$, for
+which $u_{i,a_i^\prime(s)} \leq u_i(s)$. From the definition of $\varphi$, $\varphi_{i,a_i^\prime(s)}=0$. Since $s$ is a fixed point of $f$, $s_i^\prime(a_i^\prime)=s_i(a_i^\prime)$. Consider Equation (3.5), the expression
+defining $s_i^\prime(a_i^\prime)$. The numerator simplifies to $s_i(a_i^\prime)$, and is positive since
+$a_i^\prime$ is in $i$’s support. Hence the denominator must be $1$. Thus for any $i$ and
+$b_i\in A_i,\varphi_{i,b_i}(s)$ must equal $0$. From the definition of $\varphi$, this can occur only
+when no player can improve his expected payoff by moving to a pure strategy.
+Therefore, $s$ is a Nash equilibrium.
+\end{proof}
+
+
+
+
+\section{Part IV: Game Theory Glossary Tables}
+
+
+
+\begin{table}
+\caption{Game Theory Glossary Table}\label{tab1}
+\begin{tabular}{ | m{2cm} | m{8cm}| m{4cm} | }
+\hline
+\textbf{Glossary} &  \textbf{Definition} & \textbf{Sources}\\
+\hline
+
+Game Theory & {The study of the ways in which interacting choices of economic agents produce outcomes with respect to the preferences (or utilities) of those agents, where the outcomes in question might have been intended by none of the agents.} & \citeauthor{ross_2019}, \citeyear{ross_2019}\\
+\hline
+Non-cooperative Game Theory & {A game is a game with competition between individual players, as opposed to cooperative games, and in which alliances can only operate if self-enforcing.} & \citet{tamer_2010}\\
+\hline
+Cooperative Fame Theory & {A game with competition between groups of players ("coalitions") due to the possibility of external enforcement of cooperative behavior (e.g. through contract law).} & \citet{shor}\\
+\hline
+Normal-form Game & {A description of a game. Unlike extensive form, normal-form representations are not graphical per se, but rather represent the game by way of a matrix.} & \citet{fudenberg_tirole_1991}\\
+\hline
+Extensive Form Game & {A specification of a game in game theory, allowing (as the name suggests) for the explicit representation of a number of key aspects, like the sequencing of players' possible moves, their choices at every decision point, the (possibly imperfect) information each player has about the other player's moves when they make a decision, and their payoffs for all possible game outcomes.} & \citet{kuhn_2003}\\
+\hline
+Nash Equilibrium & {In a Nash equilibrium, each player is assumed to know the equilibrium strategies of the other players, and no player has anything to gain by changing only their own strategy.
+} & \citet{neumann_1947_theory}\\
+
+\hline
+Bayesian Nash Equilibrium & {A strategy profile that maximizes the expected payoff for each player given their beliefs and given the strategies played by the other players.
+} & \citet{kajii_morris_1995}\\
+\hline
+Subgame Perfect Equilibrium & {A refinement of a Nash equilibrium used in dynamic games. A strategy profile is a subgame perfect equilibrium if it represents a Nash equilibrium of every subgame of the original game. Informally, this means that at any point in the game, the players' behavior from that point onward should represent a Nash equilibrium of the continuation game (i.e. of the subgame), no matter what happened before.
+} & \citet{osborne_2017}\\
+\hline
+Evolutionary game theory & {studies players who adjust their strategies over time according to rules that are not necessarily rational or farsighted.
+} & \citet{newton_2018}\\
+
+
+
+\hline
+\end{tabular}
+\end{table}
+
+
+
+
+
+
+% ---- Bibliography ----
+%
+% BibTeX users should specify bibliography style 'splncs04'.
+% References will then be sorted and formatted in the correct style.
+%
+\bibliographystyle{IEEEtranN}
+\bibliography{PS1}
+%
+
+\end{document}
