@@ -7,7 +7,7 @@
 
 by [Habib Debaya]
 
-![Profile Photo](./photo.jpg =250x250)
+![Profile Photo](./photo.jpg | width=100)
 
 
 **Profile Photo**
