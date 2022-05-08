@@ -1,14 +1,18 @@
 # Feedback from Ray:
 I enjoyed very much and learned a lot by reviewing Habib’s Final Product For ECON/CS 206. Let me brief on the good parts and areas to be improved.
 Good parts:
-Habib answered all questions clearly and concisely (I don’t like long and obscure sentences and Habib avoided all these) and strictly followed Prof. Zhang’s requirements.
-Habib generates some fresh and inspiring ideas, such as those in Part II and III, when he tries to illustrate from ECON and CS perspectives and share his understandings about interdisciplinary research.
-Habib formatted his final project in a very organized way
-Habib states that he is still working on the stuff at the end so that readers won’t be confused
+* Habib answered all questions clearly and concisely (I don’t like long and obscure sentences and Habib avoided all these) and strictly followed Prof. Zhang’s requirements.
+* Habib generates some fresh and inspiring ideas, such as those in Part II and III, when he tries to illustrate from ECON and CS perspectives and share his understandings about interdisciplinary research.
+* Habib formatted his final project in a very organized way
+* Habib states that he is still working on the stuff at the end so that readers won’t be confused
+
 Areas to be improved
-The read-me file of the GitHub folder is not correctly formatted as Prof. Zhang suggests. You should include your name, bio, picture, links, and table of content clearly. You may also drag previous code assignments and problem sets into the same file as a part of our final product.
-Citations haven’t been added. But I do recognize you are still building your work block, just as you mentioned at the page bottom. It’s fine, just remember to include in-text citations and bibliography.
-I would suggest have a glossary table for some terminologies, such as e-voting you mentioned intensively. Readers can find answers in the passage, but it would be better to separately introduce them somewhere in a table, if time allows. But I believe it’s not a necessary.
+
+* The read-me file of the GitHub folder is not correctly formatted as Prof. Zhang suggests. You should include your name, bio, picture, links, and table of content clearly. You may also drag previous code assignments and problem sets into the same file as a part of our final product.
+* Citations haven’t been added. But I do recognize you are still building your work block, just as you mentioned at the page bottom. It’s fine, just remember to include in-text citations and bibliography.
+* I would suggest have a glossary table for some terminologies, such as e-voting you mentioned intensively. Readers can find answers in the passage, but it would be better to separately introduce them somewhere in a table, if time allows. But I believe it’s not a necessary.
+
+
 Overall, this is a wonderful final project. Maybe further consider if there is a need to include at least one figure or picture. But it’s already almost perfect in general. During my last college course, I feel very happy and honored to have Habib as my classmate and friend. We discuss and share wisdoms, and I have been enjoying it very much. In the future, I also would like to visit Tunisia!
 
 # Response to Feedback:
@@ -61,3 +65,7 @@ Duke Kunshan University
 No.8, Duke Avenue
 
 md433@duke.edu
+
+# Implemented modifications:
+
+As mentioned in my response, I upadated the project according to Ray's comments. I added and edited my GitHub repo, citations, and glossary table.
