@@ -107,9 +107,27 @@ From a professional perspective, electronic voting is a field that will only con
 | **Blockchain** | **Blockchain** is the decentralized managing technique of Bitcoin, designed for issuing and transferring money for the users of the Bitcoin currency. This technique can support the public ledger of all Bitcoin transactions that have ever been executed, without any control of a third party organization. |[(Yli-Huumo 2016)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0163477)|
 
 ### References
-Type here
+
+Abuidris, Yousif, Rajesh Kumar, and Wang Wenyong. 2019. “A Survey of Blockchain Based on e-Voting Systems.” Proceedings of the 2019 2nd International Conference on Blockchain Technology and Applications. https://doi.org/10.1145/3376044.3376060. 
+
+“Electronic Voting.” n.d. Encyclopædia Britannica. Encyclopædia Britannica, inc. Accessed May 8, 2022. https://www.britannica.com/topic/electronic-voting. 
+
+Leible, Stephan, Steffen Schlager, Moritz Schubotz, and Bela Gipp. 2019. “A Review on Blockchain Technology and Blockchain Projects Fostering Open Science.” Frontiers in Blockchain 2. https://doi.org/10.3389/fbloc.2019.00016. 
+
+Pawlak, Michał, Jakub Guziur, and Aneta Poniszewska-Marańda. 2018. “Voting Process with Blockchain Technology: Auditable Blockchain Voting System.” Advances in Intelligent Networking and Collaborative Systems, 233–44. https://doi.org/10.1007/978-3-319-98557-2_21. 
+
+Xiao, Shuai, Xu An Wang, Wei Wang, and Han Wang. 2019. “Survey on Blockchain-Based Electronic Voting.” Advances in Intelligent Networking and Collaborative Systems, 559–67. https://doi.org/10.1007/978-3-030-29035-1_54. 
+
+Yli-Huumo, Jesse, Deokyoon Ko, Sujin Choi, Sooyong Park, and Kari Smolander. 2016. “Where Is Current Research on Blockchain Technology?—a Systematic Review.” PLOS ONE 11 (10). https://doi.org/10.1371/journal.pone.0163477. 
+
 
 ### References in BibTex
 ```
+ @article{abuidris_kumar_wenyong_2019, title={A survey of blockchain based on e-voting systems}, DOI={10.1145/3376044.3376060}, journal={Proceedings of the 2019 2nd International Conference on Blockchain Technology and Applications}, author={Abuidris, Yousif and Kumar, Rajesh and Wenyong, Wang}, year={2019}} 
+ @article{leible_schlager_schubotz_gipp_2019, title={A review on blockchain technology and Blockchain Projects Fostering Open Science}, volume={2}, DOI={10.3389/fbloc.2019.00016}, journal={Frontiers in Blockchain}, author={Leible, Stephan and Schlager, Steffen and Schubotz, Moritz and Gipp, Bela}, year={2019}} 
+ @article{pawlak_guziur_poniszewska-marańda_2018, title={Voting process with blockchain technology: Auditable blockchain voting system}, DOI={10.1007/978-3-319-98557-2_21}, journal={Advances in Intelligent Networking and Collaborative Systems}, author={Pawlak, Michał and Guziur, Jakub and Poniszewska-Marańda, Aneta}, year={2018}, pages={233–244}} 
+ @article{xiao_wang_wang_wang_2019, title={Survey on blockchain-based electronic voting}, DOI={10.1007/978-3-030-29035-1_54}, journal={Advances in Intelligent Networking and Collaborative Systems}, author={Xiao, Shuai and Wang, Xu An and Wang, Wei and Wang, Han}, year={2019}, pages={559–567}} 
+ @article{yli-huumo_ko_choi_park_smolander_2016, title={Where is current research on blockchain technology?—a systematic review}, volume={11}, DOI={10.1371/journal.pone.0163477}, number={10}, journal={PLOS ONE}, author={Yli-Huumo, Jesse and Ko, Deokyoon and Choi, Sujin and Park, Sooyong and Smolander, Kari}, year={2016}} 
+ @misc{encyclopædia britannica, title={Electronic voting}, url={https://www.britannica.com/topic/electronic-voting}, journal={Encyclopædia Britannica}, publisher={Encyclopædia Britannica, inc.}} 
 ```
 
