@@ -99,6 +99,12 @@ Additionally, we could look into how the effect of network connection and speed 
 
 From a professional perspective, electronic voting is a field that will only continue to grow. It would be both lucrative and highly beneficial to society to create safe and secure electronic voting systems.
 
+## Glossary Table
+
+| Glossary | Definition |Source|
+| ----------- | ----------- |-----------|
+| **Electronic Voting** | **Electronic voting** is a form of computer-mediated voting in which voters make their selections with the aid of a computer. |[(Darmawan 2021)](https://journals.sagepub.com/doi/abs/10.1177/20578911211040584)|
+| **Blockchain** | **Blockchain** is the decentralized managing technique of Bitcoin, designed for issuing and transferring money for the users of the Bitcoin currency. This technique can support the public ledger of all Bitcoin transactions that have ever been executed, without any control of a third party organization. |[(Yli-Huumo 2016)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0163477)|
 
 ### References
 Type here
