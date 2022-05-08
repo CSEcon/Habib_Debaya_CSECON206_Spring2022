@@ -33,5 +33,8 @@ I would like to thank Professor Luyao Zhang for her invaluable guidance and supp
 | **[Code Assignment 2](https://github.com/CSEcon/Habib_Debaya_CSECON206_Spring2022/tree/main/CodeAssignment2)** | Week 4 | Algorithmic Game Theory|
 | **[Problem Set 2](https://github.com/CSEcon/Habib_Debaya_CSECON206_Spring2022/tree/main/ProblemSet2)** | Week 5 | Cooperative AI and the Future of Mechanism Design|
 | **[Final Project](https://github.com/CSEcon/Habib_Debaya_CSECON206_Spring2022/tree/main/FinalProject)** | Week 6 | The Future of Computional Microeconomics|
+| **[Final Project | Feedback Correspondence](ob/main/FinalProject/FeedbackCorrespondence.md)** | Week 7 | The Future of Computional Microeconomics|
+| **[Final Project | Presentation Slides](https://github.com/CSEcon/Habib_Debaya_CSECON206_Spring2022/blob/main/FinalProject/Habib%20Debaya%20-%20Final%20Project%20Slides.pdf)** | Week 7 | The Future of Computional Microeconomics|
+
 
 
